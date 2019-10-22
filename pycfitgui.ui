@@ -563,7 +563,7 @@
   </connection>
   <connection>
    <sender>InitGuessBox</sender>
-   <signal>textEdited(QString)</signal>
+   <signal>textChanged(QString)</signal>
    <receiver>MainWindow</receiver>
    <slot>FitParamsChanged(QString)</slot>
    <hints>
@@ -579,7 +579,7 @@
   </connection>
   <connection>
    <sender>LowerBoundBox</sender>
-   <signal>textEdited(QString)</signal>
+   <signal>textChanged(QString)</signal>
    <receiver>MainWindow</receiver>
    <slot>FitParamsChanged(QString)</slot>
    <hints>
@@ -595,7 +595,7 @@
   </connection>
   <connection>
    <sender>UpperBoundBox</sender>
-   <signal>textEdited(QString)</signal>
+   <signal>textChanged(QString)</signal>
    <receiver>MainWindow</receiver>
    <slot>FitParamsChanged(QString)</slot>
    <hints>
